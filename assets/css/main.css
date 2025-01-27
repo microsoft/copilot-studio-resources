@@ -4005,7 +4005,7 @@ input, select, textarea {
 				background: #ffffff;
 				border-radius: 100%;
 				color: #54d3cf;
-				content: '\f1b3';
+				content: '\f27a';
 				display: inline-block;
 				font-size: 0.9em;
 				height: 2em;
@@ -4226,10 +4226,10 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, rgba(22, 244, 207, 0.65), rgba(101, 50, 229, 0.65)), url("../../images/banner.jpg");
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgba(22, 244, 207, 0.65), rgba(101, 50, 229, 0.65)), url("../../images/banner.jpg");
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgba(22, 244, 207, 0.65), rgba(101, 50, 229, 0.65)), url("../../images/banner.jpg");
-		background-image: url("images/overlay.png"), linear-gradient(45deg, rgba(22, 244, 207, 0.65), rgba(101, 50, 229, 0.65)), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, rgba(22, 244, 207, 0.65), rgba(101, 50, 229, 0.65)), url("../../images/banner.png");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgba(22, 244, 207, 0.65), rgba(101, 50, 229, 0.65)), url("../../images/banner.png");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgba(22, 244, 207, 0.65), rgba(101, 50, 229, 0.65)), url("../../images/banner.png");
+		background-image: url("images/overlay.png"), linear-gradient(45deg, rgba(22, 244, 207, 0.65), rgba(101, 50, 229, 0.65)), url("../../images/banner.png");
 		background-position: center center;
 		background-size: auto, cover, cover;
 		background-attachment: fixed, fixed, fixed;
@@ -4454,10 +4454,10 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, rgba(22, 244, 207, 0.65), rgba(101, 50, 229, 0.65)), url("../../images/banner.jpg");
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgba(22, 244, 207, 0.65), rgba(101, 50, 229, 0.65)), url("../../images/banner.jpg");
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgba(22, 244, 207, 0.65), rgba(101, 50, 229, 0.65)), url("../../images/banner.jpg");
-		background-image: url("images/overlay.png"), linear-gradient(45deg, rgba(22, 244, 207, 0.65), rgba(101, 50, 229, 0.65)), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, rgba(22, 244, 207, 0.65), rgba(101, 50, 229, 0.65)), url("../../images/banner.png");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgba(22, 244, 207, 0.65), rgba(101, 50, 229, 0.65)), url("../../images/banner.png");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgba(22, 244, 207, 0.65), rgba(101, 50, 229, 0.65)), url("../../images/banner.png");
+		background-image: url("images/overlay.png"), linear-gradient(45deg, rgba(22, 244, 207, 0.65), rgba(101, 50, 229, 0.65)), url("../../images/banner.png");
 		background-position: center center;
 		background-size: auto, cover, cover;
 		background-attachment: fixed, fixed, fixed;
