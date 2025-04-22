@@ -12,6 +12,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="icon" href="images/banner.png" sizes="32x32">
+	<script>
+		function openTarget() {
+			var hash = location.hash.substring(1);
+			if(hash) var details = document.getElementById(hash);
+			if(details && details.tagName.toLowerCase() === 'details') details.open = true;
+			}
+		window.addEventListener('hashchange', openTarget);
+		openTarget();
+	</script>
 </head>
 
 <body class="landing is-preload">
