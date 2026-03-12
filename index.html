@@ -10,24 +10,24 @@
 		*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 		:root {
-			--purple-deep: #1b0036;
-			--purple-mid: #3b1d73;
-			--purple-accent: #7b4fbe;
-			--purple-light: #c9a6ff;
-			--blue-accent: #4fc3f7;
-			--teal-accent: #26c6da;
+			--brand-deep: #3b1f8e;
+			--brand-mid: #6344c5;
+			--brand-accent: #0099e0;
+			--brand-light: #44d7b6;
+			--mint-accent: #6ee7b7;
+			--teal-accent: #00c4cc;
 			--surface: #ffffff;
-			--surface-alt: #f6f2ff;
-			--surface-hover: #ede5ff;
-			--text: #1a1a2e;
-			--text-muted: #5c5c7a;
-			--text-on-dark: #f0eaff;
-			--border: #e0d6f0;
+			--surface-alt: #f4f0ff;
+			--surface-hover: #ebe4ff;
+			--text: #1e1e2e;
+			--text-muted: #5c5a72;
+			--text-on-dark: #f0ecff;
+			--border: #e0daf0;
 			--radius: 12px;
 			--radius-lg: 20px;
-			--shadow-sm: 0 1px 3px rgba(27,0,54,.06);
-			--shadow-md: 0 4px 16px rgba(27,0,54,.08);
-			--shadow-lg: 0 8px 32px rgba(27,0,54,.12);
+			--shadow-sm: 0 1px 3px rgba(59,31,142,.06);
+			--shadow-md: 0 4px 16px rgba(59,31,142,.08);
+			--shadow-lg: 0 8px 32px rgba(59,31,142,.12);
 			--transition: .2s cubic-bezier(.4,0,.2,1);
 		}
 
@@ -42,16 +42,16 @@
 		}
 
 		a {
-			color: var(--purple-accent);
+			color: var(--brand-accent);
 			text-decoration: none;
 			transition: color var(--transition);
 		}
-		a:hover { color: var(--purple-mid); }
+		a:hover { color: var(--brand-mid); }
 
 		/* ── Hero ── */
 		.hero {
-			background: linear-gradient(135deg, var(--purple-deep) 0%, var(--purple-mid) 50%, #4a2d8a 100%);
-			color: var(--text-on-dark);
+			background: linear-gradient(135deg, #e85d9a 0%, #f47a5b 15%, #f5a623 28%, #44d7b6 45%, #00b4d8 60%, #4f6de8 75%, #7b4fc8 88%, #a855c8 100%);
+			color: #1e1e2e;
 			padding: 5rem 2rem 4rem;
 			text-align: center;
 			position: relative;
@@ -62,8 +62,8 @@
 			position: absolute;
 			inset: 0;
 			background:
-				radial-gradient(ellipse 600px 400px at 20% 80%, rgba(79,195,247,.12) 0%, transparent 70%),
-				radial-gradient(ellipse 500px 350px at 80% 20%, rgba(123,79,190,.2) 0%, transparent 70%);
+				radial-gradient(ellipse 600px 400px at 20% 80%, rgba(68,215,182,.15) 0%, transparent 70%),
+				radial-gradient(ellipse 500px 350px at 80% 20%, rgba(232,93,154,.12) 0%, transparent 70%);
 			pointer-events: none;
 		}
 		.hero h1 {
@@ -75,13 +75,13 @@
 		}
 		.hero p {
 			font-size: 1.15rem;
-			opacity: .88;
+			opacity: .85;
 			max-width: 600px;
 			margin: 0 auto;
 			position: relative;
 		}
-		.hero a { color: var(--blue-accent); }
-		.hero a:hover { color: #fff; }
+		.hero a { color: #1e1e2e; font-weight: 700; text-decoration: underline; }
+		.hero a:hover { color: #000; }
 
 		/* ── Search ── */
 		.search-bar {
@@ -92,19 +92,19 @@
 		.search-bar input {
 			width: 100%;
 			padding: .85rem 1.2rem .85rem 2.8rem;
-			border: 1.5px solid rgba(255,255,255,.2);
+			border: 1.5px solid rgba(0,0,0,.15);
 			border-radius: 50px;
-			background: rgba(255,255,255,.08);
-			color: #fff;
+			background: rgba(255,255,255,.45);
+			color: #1e1e2e;
 			font-size: 1rem;
 			backdrop-filter: blur(8px);
 			transition: border-color var(--transition), background var(--transition);
 		}
-		.search-bar input::placeholder { color: rgba(255,255,255,.5); }
+		.search-bar input::placeholder { color: rgba(0,0,0,.4); }
 		.search-bar input:focus {
 			outline: none;
-			border-color: var(--purple-light);
-			background: rgba(255,255,255,.14);
+			border-color: rgba(0,0,0,.3);
+			background: rgba(255,255,255,.6);
 		}
 		.search-bar svg {
 			position: absolute;
@@ -113,7 +113,7 @@
 			transform: translateY(-50%);
 			width: 18px;
 			height: 18px;
-			stroke: rgba(255,255,255,.5);
+			stroke: rgba(0,0,0,.4);
 			fill: none;
 			pointer-events: none;
 		}
@@ -144,7 +144,7 @@
 			border: 1px solid transparent;
 		}
 		.nav-strip a:hover {
-			color: var(--purple-accent);
+			color: var(--brand-accent);
 			background: var(--surface-alt);
 			border-color: var(--border);
 		}
@@ -280,7 +280,7 @@
 			transition: all var(--transition);
 		}
 		.session-grid li:hover {
-			border-color: var(--purple-light);
+			border-color: var(--brand-light);
 			box-shadow: var(--shadow-md);
 		}
 		.session-grid a {
@@ -294,13 +294,13 @@
 			text-decoration: none;
 			height: 100%;
 		}
-		.session-grid a:hover { color: var(--purple-accent); }
+		.session-grid a:hover { color: var(--brand-accent); }
 
 		.session-badge {
 			font-size: .7rem;
 			font-weight: 700;
 			background: var(--surface-alt);
-			color: var(--purple-accent);
+			color: var(--brand-accent);
 			padding: .2rem .5rem;
 			border-radius: 6px;
 			flex-shrink: 0;
@@ -309,7 +309,7 @@
 
 		/* ── Footer ── */
 		footer {
-			background: var(--purple-deep);
+			background: var(--brand-deep);
 			color: var(--text-on-dark);
 			text-align: center;
 			padding: 3rem 2rem 2rem;
