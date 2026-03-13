@@ -54,8 +54,4 @@
         font-family="'Segoe UI', 'Aptos', system-ui, sans-serif"
         font-size="26" fill="#ffffff" opacity="0.82">Curated by CAT · Updated regularly</text>
 
-  <!-- URL hint at bottom -->
-  <text x="80" y="570"
-        font-family="'Segoe UI', 'Aptos', system-ui, sans-serif"
-        font-size="20" fill="#ffffff" opacity="0.5">aka.ms/CopilotStudioResources</text>
 </svg>
