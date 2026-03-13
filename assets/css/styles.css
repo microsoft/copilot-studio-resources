@@ -64,6 +64,7 @@ a:hover { color: var(--brand-mid); }
 	letter-spacing: -.02em;
 	margin-bottom: .75rem;
 	position: relative;
+	color: #333333;
 }
 .hero p {
 	font-size: 1.15rem;
