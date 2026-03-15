@@ -44,7 +44,7 @@ a:hover { color: var(--brand-mid); }
 .hero {
 	background: linear-gradient(135deg, #e85d9a 0%, #f47a5b 15%, #f5a623 28%, #44d7b6 45%, #00b4d8 60%, #4f6de8 75%, #7b4fc8 88%, #a855c8 100%);
 	color: #1e1e2e;
-	padding: 5rem 2rem 4rem;
+	padding: 2.75rem 2rem 2.5rem;
 	text-align: center;
 	position: relative;
 	overflow: hidden;
@@ -59,7 +59,7 @@ a:hover { color: var(--brand-mid); }
 	pointer-events: none;
 }
 .hero h1 {
-	font-size: clamp(2rem, 5vw, 3.2rem);
+	font-size: clamp(1.6rem, 4vw, 2.4rem);
 	font-weight: 700;
 	letter-spacing: -.02em;
 	margin-bottom: .75rem;
@@ -67,7 +67,7 @@ a:hover { color: var(--brand-mid); }
 	color: #333333;
 }
 .hero p {
-	font-size: 1.15rem;
+	font-size: 1rem;
 	opacity: .85;
 	max-width: 600px;
 	margin: 0 auto;
@@ -328,7 +328,7 @@ footer .copyright {
 
 /* ── Responsive ── */
 @media (max-width: 640px) {
-	.hero { padding: 3.5rem 1.25rem 3rem; }
+	.hero { padding: 2rem 1.25rem 1.75rem; }
 	.content-wrap { padding: 2rem 1rem 3rem; }
 	.nav-strip { justify-content: flex-start; padding: .75rem 1rem; }
 	.section-header { padding: 1rem 1.25rem; }
